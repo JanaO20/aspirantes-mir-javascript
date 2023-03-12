@@ -2,5 +2,8 @@ function hello(name) {
     console.log("Hola " + name + "!");
   }
   
-  hello("World");
+  hello("Mundo");
   hello("Jana");
+//
+console.log (Hola ("Mundo"))
+console.log (Hola ("Jana"))
