@@ -2,13 +2,13 @@ function calcularColor (Number) {
     var color;
     let num = Number
     if (num == 1) {
-     console.log (color = "black");
+     console.log (color = "negro");
     } 
     else if (num == 2) {
         console.log (color = "blanco");
     } 
     else if (num == 3) {
-      console.log (color = "rojo");
+      console.log (color = "azul");
     } 
     else {
       console. log (color = "verde");

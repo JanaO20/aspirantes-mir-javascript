@@ -4,6 +4,3 @@ function hello(name) {
   
   hello("Mundo");
   hello("Jana");
-//
-console.log (Hola ("Mundo"))
-console.log (Hola ("Jana"))
