@@ -1,10 +1,10 @@
-function sum(number) {
-    let num = number
-    for (var n = 0; n >= 1; n ++) {
-        console.log(num + 1)
+function suma(n){
+    let counter = 0;
+    for (let i = 0; i <= n; i++){
+        counter += i;
     }
-    return suma
+    return counter;
 }
 
-console.log (4)
-console.log (2)
+console.log(suma(10));
+console.log(suma(4));
