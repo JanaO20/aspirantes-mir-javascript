@@ -1,8 +1,10 @@
-function suma(num) {
-    for (let num = 0 ; num <= 1;)
-    return (num*(num+1))/2
-    console.log (num)
+function suma(n){
+    let counter = 0;
+    for (let i = 0; i <= n; i++){
+        counter += i;
+    }
+    return counter;
 }
 
-console.log (4)
-console.log (2)
+console.log(suma(10));
+console.log(suma(4));
